@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSynchronizationExamples.LockUsage", "ThreadSynchronizationExamples.Lock\ThreadSynchronizationExamples.LockUsage.csproj", "{FB8290EA-B966-4247-8DA7-A36AD340899E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSynchronizationExamples.MonitorUsage", "ThreadSynchronizationExamples.Monitor\ThreadSynchronizationExamples.MonitorUsage.csproj", "{EDCF2FCE-3E36-49A7-B4E1-C4E61FC0AD50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSynchronizationExamples.ManualResetEventUsage", "ThreadSynchronizationExamples.ManualResetEventUsage\ThreadSynchronizationExamples.ManualResetEventUsage.csproj", "{31982D5C-87B6-446C-B5F3-56F5D808D0B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSynchronizationExamples.AutoResetEvent-MutexUsage", "ThreadSynchronizationExamples.AutoResetEvent-Mutex\ThreadSynchronizationExamples.AutoResetEvent-MutexUsage.csproj", "{5E78C20D-558B-4DD3-AF0F-4EAD173FBD97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSynchronizationExamples.SemaphoreUsage", "ThreadSynchronizationExamples.SemaphoreUsage\ThreadSynchronizationExamples.SemaphoreUsage.csproj", "{B27337DC-4330-45AC-933E-DCC3C2C5CDEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB8290EA-B966-4247-8DA7-A36AD340899E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB8290EA-B966-4247-8DA7-A36AD340899E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB8290EA-B966-4247-8DA7-A36AD340899E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB8290EA-B966-4247-8DA7-A36AD340899E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDCF2FCE-3E36-49A7-B4E1-C4E61FC0AD50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCF2FCE-3E36-49A7-B4E1-C4E61FC0AD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCF2FCE-3E36-49A7-B4E1-C4E61FC0AD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCF2FCE-3E36-49A7-B4E1-C4E61FC0AD50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31982D5C-87B6-446C-B5F3-56F5D808D0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31982D5C-87B6-446C-B5F3-56F5D808D0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31982D5C-87B6-446C-B5F3-56F5D808D0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31982D5C-87B6-446C-B5F3-56F5D808D0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E78C20D-558B-4DD3-AF0F-4EAD173FBD97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E78C20D-558B-4DD3-AF0F-4EAD173FBD97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E78C20D-558B-4DD3-AF0F-4EAD173FBD97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E78C20D-558B-4DD3-AF0F-4EAD173FBD97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B27337DC-4330-45AC-933E-DCC3C2C5CDEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27337DC-4330-45AC-933E-DCC3C2C5CDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27337DC-4330-45AC-933E-DCC3C2C5CDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27337DC-4330-45AC-933E-DCC3C2C5CDEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74120AA6-4F08-4FFE-836C-DC99E82F8B40}
+	EndGlobalSection
+EndGlobal
